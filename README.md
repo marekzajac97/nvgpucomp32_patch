@@ -5,8 +5,8 @@ Nvidia display driver update 576.02 causes all 32-bit games that use DXVK to CTD
 # How to install
 
 - make sure you are on the latest driver 576.28
-- download the patched DLL from (Releases)[https://github.com/marekzajac97/nvgpucomp32_patch/releases]
-- enable (DLL redirection)[https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-redirection], run the below command in command prompt as admin:
+- download the patched DLL from [Releases](https://github.com/marekzajac97/nvgpucomp32_patch/releases)
+- enable [DLL redirection](https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-redirection), run the below command in command prompt as admin:
 
 `reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /v DevOverrideEnable /t REG_DWORD /d 1`
 
